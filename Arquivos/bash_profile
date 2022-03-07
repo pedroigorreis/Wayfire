@@ -1,0 +1,13 @@
+#   Autor: Pedro Igor Martins dos Reis
+#   Data: 29/12/2021
+#   Arquivo: ".bash_profile"
+
+[ -f $HOME/.bashrc ] && . $HOME/.bashrc
+
+export MOZ_ENABLE_WAYLAND=1
+export XDG_SESSION_TYPE=wayland
+export QT_QPA_PLATFORMTHEME=qt5ct
+export XDG_CURRENT_DESKTOP=wayfire
+export QT_QPA_PLATFORM=wayland-egl
+export _JAVA_AWT_WM_NONREPARENTING=1
+export _JAVA_OPTIONS="-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel -Dswing.crossplatformlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel ${_JAVA_OPTIONS}"
