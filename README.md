@@ -20,4 +20,4 @@ Após instalar todos os programas necessários (os nomes variam de acordo com ca
 Caso deseja fazer uso de Flatpaks, instale e execute `xdg-desktop-portal-gtk`, caso contrário, os programs ficarão com aparência estranha.
 
 ## Preview
-![](https://gitlab.com/ORZAYAZ/wayfire/-/raw/main/Print.png)
+![](https://github.com/pedroigorreis/Wayfire/blob/main/Arquivos/Print.png?raw=true)
