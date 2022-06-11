@@ -22,15 +22,15 @@ window:
     general: Alacritty
 
 scrolling:
-  history: 1000
+  history: 500
   multiplier: 3
 
 font:
   normal:
-    family: Fira Mono
-    style: Medium
+    family: Fira Code
+    style: Regular
   bold:
-    family: Fira Mono
+    family: Fira Code
     style: Bold
   size: 12
 
@@ -53,9 +53,25 @@ live_config_reload: true
 
 colors:
   primary:
-    foreground: '#ffffff'
-    background: '#404552'
-  search:
-    bar:
-      foreground: '#ffffff'
-      background: '#313742'
+    background: '0x2C2C2C'
+    foreground: '0xDCDCCC'
+
+  normal:
+    black:   '0x3F3F3F'
+    red:     '0x705050'
+    green:   '0x60B48A'
+    yellow:  '0xDFAF8F'
+    blue:    '0x9AB8D7'
+    magenta: '0xDC8CC3'
+    cyan:    '0x8CD0D3'
+    white:   '0xDCDCCC'
+
+  bright:
+    black:   '0x709080'
+    red:     '0xDCA3A3'
+    green:   '0x72D5A3'
+    yellow:  '0xF0DFAF'
+    blue:    '0x94BFF3'
+    magenta: '0xEC93D3'
+    cyan:    '0x93E0E3'
+    white:   '0xFFFFFF'
